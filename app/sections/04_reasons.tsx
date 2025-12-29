@@ -4,9 +4,9 @@ import EntryForm from "../sections/08_entryform";
 import Image from "next/image";
 
 const boxes = [
-    {id:1, titles:"画像", imgSrc:"/images/01_phone.png"},
-    {id:2, titles:"画像", imgSrc:"/images/02_phone.png"},
-    {id:3, titles:"画像", imgSrc:"/images/03_phone.png"},
+    {id:1, titles:"画像", imgSrc:"/images/01_phone (1).png"},
+    {id:2, titles:"画像", imgSrc:"/images/02_phone (1).png"},
+    {id:3, titles:"画像", imgSrc:"/images/03_phone (1).png"},
     {id:4, titles:"画像", imgSrc:"/images/04_phone.png"},
 ]
 
