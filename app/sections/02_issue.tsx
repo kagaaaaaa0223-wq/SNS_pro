@@ -18,8 +18,8 @@ export default function Issue() {
       <div className="flex flex-col md:flex-row justify-center items-center mt-16 md:mt-28 mb-20 md:mb-32 gap-6 md:gap-12 px-6">
       {/* responsive added: w-full md:w-auto、text-base追加、px調整、影とホバー追加 */}
       <a href="https://lin.ee/b33L3Xy"
-      className="w-full md:w-auto bg-[#00B16B] hover:bg-[#26896D] text-white text-lg md:text-2xl py-5 px-20 md:py-7 px-10 md:px-20 font-bold rounded-full transition-all duration-300 shadow-lg hover:shadow-xl">
-          LINEから無料相談　»
+                className="w-full md:w-auto bg-[#00B16B] hover:bg-[#26896D] text-white text-lg md:text-2xl py-5 px-20 md:py-7 px-10 md:px-20 font-bold rounded-full transition-all duration-300 shadow-lg hover:shadow-xl">
+                    LINEから無料相談　»
       </a>
       {/* responsive added: w-full md:w-auto、text-base追加、px調整、影とホバー追加 */}
       <button
