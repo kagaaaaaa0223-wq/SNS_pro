@@ -18,7 +18,7 @@ export default function Issue() {
       <div className="flex flex-col md:flex-row justify-center items-center mt-16 md:mt-28 mb-20 md:mb-32 gap-6 md:gap-12 px-6">
       {/* responsive added: w-full md:w-auto、text-base追加、px調整、影とホバー追加 */}
       <a href="https://lin.ee/b33L3Xy"
-      className="w-full md:w-auto bg-[#0066cc] hover:bg-[#0052a3] text-white text-lg md:text-2xl py-5 px-20 md:py-7 px-10 md:px-20 font-bold rounded-full transition-all duration-300 shadow-lg hover:shadow-xl">
+      className="w-full md:w-auto bg-[#00B16B] hover:bg-[#26896D] text-white text-lg md:text-2xl py-5 px-20 md:py-7 px-10 md:px-20 font-bold rounded-full transition-all duration-300 shadow-lg hover:shadow-xl">
           LINEから無料相談　»
       </a>
       {/* responsive added: w-full md:w-auto、text-base追加、px調整、影とホバー追加 */}
@@ -26,7 +26,7 @@ export default function Issue() {
       onClick={() => setIsOpen(true)}
       className="w-full md:w-auto bg-[#0066cc] hover:bg-[#0052a3] text-white text-lg md:text-2xl py-5 md:py-7 px-10 md:px-14 font-bold rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
       >
-      フォームから無料相談 »
+      フォームから無料相談　»
       </button>
       </div>
 
@@ -41,9 +41,9 @@ export default function Issue() {
         ].map((videoUrl, i) => (
           <div key={i} className="relative w-full h-full overflow-hidden bg-black">
             <iframe
-              src={`${videoUrl}?autoplay=1&loop=1&playlist=${videoUrl.split('/').pop()}&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0`}
+              src={`${videoUrl}?autoplay=1&loop=1&playlist=${videoUrl.split('/').pop()}&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0&playsinline=1&enablejsapi=1`}
               allowFullScreen
-              allow="autoplay"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-0 pointer-events-auto"
               style={{ 
                 width: '100%',
